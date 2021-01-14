@@ -9,7 +9,7 @@ import pickle as pk
 warnings.filterwarnings("ignore")
 import json
 
-filename = 'kmeans_model.pkl'
+filename = '../../models/kmeans_model.pkl'
 with open(filename, 'rb') as file:
     model = pk.load(file)
 

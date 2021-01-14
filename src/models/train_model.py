@@ -35,7 +35,7 @@ kmeans_model1["Inertia"] = get_inertia(X_1, 20)
 model = KMeans(n_clusters= 4, init='k-means++', random_state=0)
 model.fit(X_1)
 
-filename = 'kmeans_model.pkl'
+filename = '../../models/kmeans_model.pkl'
 pk.dump(model, open(filename, 'wb'))
 
 with open('model_params.json', 'w') as fp:
