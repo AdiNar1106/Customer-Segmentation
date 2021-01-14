@@ -3,6 +3,8 @@ Customer-Segmentation
 
 Project to learn customer segmentation
 
+Download the data here: https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python/download
+
 Project Organization
 ------------
 
@@ -19,7 +21,7 @@ Project Organization
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    ├── notebooks          <-   notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
